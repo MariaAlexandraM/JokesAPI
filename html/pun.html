@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script type="text/javascript" src="../jquery.min.js"></script>
+    <script type="text/javascript" src="../js/pun.js"></script>
+    <title>Colocviu</title>
+    <link rel="stylesheet" href="../css/home.css" type="text/css">
+</head>
+
+<body>
+    <h1>Jokes API - Puns🤓</h1>
+    <div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="home.html">All</a>
+                </li>
+                <li>
+                    <a href="christmas.html">Christmas</a>
+                </li>
+                <li>
+                    <a href="programming.html">Programming</a>
+                </li>
+                <li>
+                    <a href="miscellaneous.html">Miscellaneous</a>
+                </li>
+                <li>
+                    <a href="dark.html">Dark</a>
+                </li>
+                <li>
+                    <a class="active" href="pun.html">Pun</a>
+                </li>
+                <li>
+                    <a href="spooky.html">Spooky</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+
+    <div id="loading-animation" class="loading">
+        <img src="../images/loading.gif" alt="Loading..." />
+        <div id="loading-text">Loading...</div>
+    </div>
+    
+    <div id="jokes-container" class="jokes-container">
+        <div id="confirmation-dialog" class="dialog" style="display: none;">
+            <div class="dialog-content">
+                <h3>Are you sure you want to report this joke?</h3>
+                <button id="cancel-button">Cancel</button>
+                <button id="confirm-button">Confirm</button>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
