@@ -1,7 +1,7 @@
 # JokesAPI
 
 ## Description
-This project uses CSS, HTML5 and Javascript to display jokes, calling an existing API (https://sv443.net/jokeapi/v2) and using the categories as filters (Christmas, Miscellaneous etc.) 
+This project uses CSS, HTML5 and Javascript to display jokes, calling an existing API (https://sv443.net/jokeapi/v2) and using the categories as filters (Christmas, Miscellaneous etc.). 
 When a page is accessed for the first time, a Loading animation is shown for 2 seconds, and then the jokes are loaded the exact amount being specificied upon calling the API. 
 
 ## Functionalities
